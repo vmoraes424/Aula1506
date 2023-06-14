@@ -1,0 +1,81 @@
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+header,
+article,
+section,
+footer {
+  width: 80%;
+  margin: auto;
+  position: relative;
+}
+nav {
+  position: absolute;
+  top: 25px;
+  right: 0px;
+}
+nav ul li a {
+  text-transform: uppercase;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  text-decoration: none;
+}
+nav a {
+  text-decoration: none;
+}
+nav ul li a:hover {
+  color: rgb(255, 0, 0);
+}
+li {
+  display: inline;
+  margin-left: 15px;
+}
+
+.pizza-grande {
+  width: 100%;
+}
+
+article h2 {
+  color: rgb(255, 0, 0);
+  text-align: center;
+  font-size: 1.5em;
+}
+p,
+li {
+  font-size: 1.2em;
+}
+section h2 {
+  margin-top: 100px;
+}
+#diferenciais h2 {
+  color: green;
+}
+#diferenciais li {
+  display: list-item;
+}
+#diferenciais ul {
+  display: inline-block;
+  vertical-align: top;
+  width: 35%;
+}
+#diferenciais img {
+  width: 50%;
+}
+figure {
+  display: inline-block;
+}
+figcaption {
+  text-align: center;
+}
+
+.imagens {
+  width: 100%;
+  margin: auto;
+  text-align: center;
+}
+
+iframe {
+  width: 100%;
+  border-radius: 1rem;
+}
